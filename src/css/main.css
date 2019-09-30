@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    background: #F7F7F7;
+}
+/* The Header */
+header{
+    display: flex;
+    background:#fff;
+    justify-content: space-between;
+}
+.center-logo img{
+    /* border: 1px solid #000; */
+    height: 50px;
+    width: 250px;
+}
+.leftmost,
+.rightmost{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 17%;
+}
+.leftmost a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+.leftmost a:hover{
+    text-decoration: underline;
+}
+.rightmost input{
+    background: #336991;
+}
+/* The Header */
