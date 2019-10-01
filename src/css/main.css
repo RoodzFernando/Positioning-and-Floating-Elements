@@ -142,47 +142,116 @@
      padding-left: 8px;
      padding-top: 5px;
  }
-  .social .fab:hover,
-  .fa-envelope:hover,
-  .fa-share:hover{
-      background: #fff;
+ 
+ .social .fab:hover,
+ .fa-envelope:hover,
+ .fa-share:hover {
+     background: #fff;
      border: 1px solid grey;
-  }
-  .signup{
-    /* border: 1px solid #000; */
-    padding: 0 25px;
-    font-size: 12px;
  }
- .content-right h6{
+ 
+ .signup {
+     /* border: 1px solid #000; */
+     padding: 0 25px;
+     font-size: 12px;
+ }
+ 
+ .content-right h6 {
      font-size: 20px;
      margin-bottom: 15px;
  }
- .signup p{
-     color:#8A8A8A;
+ 
+ .signup p {
+     color: #8A8A8A;
  }
- .signup input{
-    height: 35px;
-    width: 95%;
-    border-style: solid;
-    margin-top: 15px;
-    background: rgb(98, 136, 165);
-    border-color: rgb(98, 136, 165);
-    color:#fff;
-    border-radius: 6px;  
+ 
+ .signup input {
+     height: 35px;
+     width: 95%;
+     border-style: solid;
+     margin-top: 15px;
+     background: rgb(98, 136, 165);
+     border-color: rgb(98, 136, 165);
+     color: #fff;
+     border-radius: 6px;
  }
-  .signup input:hover{
-     background:#326891;
+ 
+ .signup input:hover {
+     background: #326891;
      border-color: #326891;
  }
- .editor-pick{
+ 
+ .editor-pick {
      border: 1px solid #000;
      background: blueviolet;
      display: flex;
      flex-direction: column;
-   
  }
-  .editor-pick a{
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
-  }
+ 
+ .editor-pick a {
+     display: flex;
+     width: 100%;
+     margin-bottom: 20px;
+ }
+ 
+ .free-article p {
+     margin-top: 15px;
+     text-align: center;
+ }
+ 
+ .free-article hr {
+     width: 100px;
+     margin-left: 550px;
+ }
+ 
+ .free-article a {
+     display: block;
+     margin-top: 10px;
+     color: #326891;
+     text-decoration: none;
+ }
+ 
+ .grid {
+     /* display: grid; */
+     margin: auto;
+     max-width: 1200px;
+     /* grid-template-columns: repeat(4, 400px); */
+ }
+ /* .grid p {
+     display: grid;
+     grid-template-columns: repeat(4, 100px);
+     grid-template-areas: "item1 item2 item3 item4""item1 item2 item3 item4""item1 item2 item3 item4";
+ } */
+ 
+ .grid img {
+     max-width: 1200px;
+ }
+ 
+ .items1,
+ .items2,
+ .items3,
+ .items4 {
+     display: inline-block;
+     background: red;
+     border: purple 1px solid;
+     width: 400px;
+     height: 150px;
+ }
+ 
+ .items1 {
+     display: absolute;
+     top: 0;
+     left: 0;
+ }
+ /* 
+ .items2 {
+     grid-area: item2;
+ }
+ 
+ .items3 {
+     grid-area: item3;
+ }
+ 
+ .items4 {
+     grid-area: item4;
+ } */
