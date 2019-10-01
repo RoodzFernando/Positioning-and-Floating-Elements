@@ -75,3 +75,26 @@
  figcaption {
      font-size: 15px;
  }
+ .main-container{
+     border: 1px solid #000;
+     height: 100vh;
+     width: 80%;
+     background: #336991;
+     display: flex;
+     margin: auto;
+ }
+ .content-center{
+     border: 1px solid #000;
+     height: 100vh;
+     width: 80%;
+     background: lightpink;
+     flex:3;
+ }
+ .content-right{
+     border: 1px solid #000;
+     height: 100vh;
+     width: 80%;
+     background: lightgreen;
+     flex:1;
+ }
+ 
