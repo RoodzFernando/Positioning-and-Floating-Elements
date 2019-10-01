@@ -75,26 +75,67 @@
  figcaption {
      font-size: 15px;
  }
- .main-container{
+ 
+ .main-container {
      border: 1px solid #000;
-     height: 100vh;
-     width: 80%;
+     max-width: 1200px;
      background: #336991;
      display: flex;
      margin: auto;
- }
- .content-center{
-     border: 1px solid #000;
-     height: 100vh;
-     width: 80%;
-     background: lightpink;
-     flex:3;
- }
- .content-right{
-     border: 1px solid #000;
-     height: 100vh;
-     width: 80%;
-     background: lightgreen;
-     flex:1;
+     justify-content: flex-end;
+     align-content: space-between;
  }
  
+ .content-center {
+     display: flex;
+     flex-direction: column;
+     border: 1px solid #000;
+     background: lightpink;
+     flex: 3;
+     font-size: 20px;
+ }
+ 
+ .content-right {
+     display: flex;
+     border: 1px solid #000;
+     height: 100vh;
+     background: lightgreen;
+     flex: 1;
+     flex-direction: column;
+     max-height: 80%;
+     justify-content: space-between;
+ }
+ 
+ .content-right img {
+     height: 70px;
+     width: 70px;
+ }
+ 
+ .content-center p {
+     margin-bottom: 20px;
+     padding-left: 35%;
+ }
+ 
+ .publication-info {
+     border: 2px solid red;
+ }
+ 
+ .publication-info :nth-child(2) {
+     margin-top: 15px;
+ }
+ 
+ .social {
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-around;
+     width: 25%;
+ }
+ 
+ .social .fab {
+     background: grey;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     padding-left: 8px;
+     padding-top: 5px;
+ }
