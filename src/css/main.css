@@ -3,7 +3,7 @@
  }
  
  body {
-     background: #F7F7F7;
+     background: white;
      font-family: "Arbutus Slab", serif;
  }
  /* The Header */
@@ -44,11 +44,7 @@
      font-weight: bold;
      border-radius: 5px;
      border: none;
-     /* height: 100%; */
-     ;
  }
- /* The Header */
- /* body */
  
  .highlight {
      font-size: 40px;
@@ -77,9 +73,7 @@
  }
  
  .main-container {
-     border: 1px solid #000;
      max-width: 1200px;
-     background: #336991;
      display: flex;
      margin: auto;
      justify-content: flex-end;
@@ -89,20 +83,14 @@
  .content-center {
      display: flex;
      flex-direction: column;
-     border: 1px solid #000;
-     background: lightpink;
      flex: 3;
      font-size: 20px;
  }
  
  .content-right {
      display: flex;
-     border: 1px solid #000;
-     /* height: 100vh; */
-     background: lightsalmon;
      flex: 1;
      flex-direction: column;
-     /* max-height: 80%; */
      justify-content: space-around;
  }
  
@@ -182,16 +170,15 @@
  }
  
  .editor-pick {
-     border: 1px solid #000;
-     background: blueviolet;
      display: flex;
      flex-direction: column;
+     margin-top: 20px;
  }
  
  .editor-pick a {
      display: flex;
      width: 100%;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
  }
  
  .free-article p {
@@ -207,54 +194,51 @@
  .free-article a {
      display: block;
      margin-top: 10px;
-     color: #326891;
      text-decoration: none;
  }
  
  .grid {
-     /* display: grid; */
      margin: auto;
-     max-width: 1200px;
-     /* grid-template-columns: repeat(4, 400px); */
+     width: 1200px;
+     ;
  }
- /* .grid p {
-     display: grid;
-     grid-template-columns: repeat(4, 100px);
-     grid-template-areas: "item1 item2 item3 item4""item1 item2 item3 item4""item1 item2 item3 item4";
- } */
  
  .grid img {
      max-width: 1200px;
  }
  
- .items1,
- .items2,
- .items3,
- .items4 {
-     display: inline-block;
-     background: red;
-     border: purple 1px solid;
-     width: 400px;
-     height: 150px;
+ .items-background {
+     background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+     background-repeat: no-repeat;
+     background-size: 1200px 600px;
+     height: 600px;
  }
  
- .items1 {
-     display: absolute;
-     top: 0;
-     left: 0;
- }
- /* 
- .items2 {
-     grid-area: item2;
- }
- 
- .items3 {
-     grid-area: item3;
+ .item p {
+     float: left;
+     margin-top: 165px;
+     margin-right: 49px;
+     width: 250px;
+     height: 100px;
+     font-size: 14px;
  }
  
- .items4 {
-     grid-area: item4;
- } */
+ .main-container2 {
+     max-width: 1200px;
+     display: flex;
+     margin: auto;
+     align-content: center;
+     background: blue;
+     justify-content: flex-end;
+     align-content: space-between;
+ }
+ 
+ .content-center2 {
+     display: flex;
+     flex-direction: column;
+     flex: 3;
+     font-size: 20px;
+ }
  
  .grid-more {
      display: grid;
@@ -263,19 +247,13 @@
      column-gap: 20px;
  }
  
- .grid-more figure {
-     border: 5px solid red;
- }
- 
  .grid-more figure img {
-     border: 5px solid blue;
      width: 300px;
      height: 200px;
  }
  
  .more {
      display: flex;
-     background: red;
      width: 80%;
      margin: auto;
  }
@@ -283,7 +261,6 @@
  .right-more {
      display: flex;
      flex-direction: column;
-     border: 1px solid #000;
      margin-left: 30px;
  }
  
@@ -296,13 +273,20 @@
  
  .footer-navigation {
      margin-top: 70px;
+     margin-left: 50px;
+     margin-right: 50px;
  }
-/*  
- .footer-header img {
+ 
+ .top-header a {
+     margin-left: 1300px;
+     color: lightblue;
+ }
+ 
+ .footer-header svg {
      height: 50px;
      width: 250px;
      margin: auto;
- } */
+ }
  
  .footer-highlights {
      display: grid;
@@ -328,14 +312,13 @@
      text-decoration: none;
      font-size: 12px;
  }
- .footer-logo{
+ 
+ .footer-logo {
      display: flex;
  }
- .footer-logo svg{
-     width:15px;
+ 
+ .footer-logo svg {
+     width: 15px;
      height: 15px;
      margin-right: 5px;
  }
- 
- 
- 
