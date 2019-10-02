@@ -63,11 +63,7 @@
      margin: auto;
      max-width: 1200px;
  }
- 
- figure img {
-     max-width: 1200px;
- }
- 
+
  figcaption {
      font-size: 15px;
  }
@@ -105,9 +101,6 @@
      padding-left: 35%;
  }
  
- .publication-info {
-     border: 2px solid red;
- }
  
  .publication-info :nth-child(2) {
      margin-top: 15px;
@@ -139,7 +132,7 @@
  }
  
  .signup {
-     /* border: 1px solid #000; */
+    
      padding: 0 25px;
      font-size: 12px;
  }
@@ -222,22 +215,18 @@
      height: 100px;
      font-size: 14px;
  }
- 
- .main-container2 {
-     max-width: 1200px;
-     display: flex;
+
+.second-content h5{
+    display: block;
+    margin-left: 215px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .second-content p{
+     width: 60%;
      margin: auto;
-     align-content: center;
-     background: blue;
-     justify-content: flex-end;
-     align-content: space-between;
- }
- 
- .content-center2 {
-     display: flex;
-     flex-direction: column;
-     flex: 3;
-     font-size: 20px;
  }
  
  .grid-more {
@@ -251,17 +240,74 @@
      width: 300px;
      height: 200px;
  }
- 
+ .second-container{
+     width: 80%;
+     margin: auto;
+ }
+ .second-container iframe{
+     text-align: center;
+ }
+ .video{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     margin: 20px 0;
+ }
+ .video span{
+     font-size: 12px;
+     color:grey;
+ }
+ .telescope{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 30px 0;
+ }
+ .telescope img{
+     border: 1px solid #000;
+     width: 650px;
+     height: 400px;
+ }
+ .telescope span{
+     font-size: 10px;
+     color:grey;
+ }
+
  .more {
      display: flex;
      width: 80%;
      margin: auto;
+     margin-top: 30px;
  }
  
  .right-more {
      display: flex;
      flex-direction: column;
      margin-left: 30px;
+ }
+ .agreement{
+     color:grey;
+     font-size: 12px;
+ }
+ .agreement a{
+     color:grey;
+ }
+ .bottom-social{
+     margin: auto;
+     width: 70%;
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .bottom-social input{
+     background: #326891;
+     border-color: #326891;
+     border-style: solid;
+     height: 40px;
+     width: 350px;
+     border-radius: 6px;
+     color:#fff;
+     text-transform: uppercase;
  }
  
  .border-divider {
