@@ -255,3 +255,27 @@
  .items4 {
      grid-area: item4;
  } */
+
+ .grid-more{
+     display: grid;
+     grid-template: repeat(3, 300px) / repeat(3, 300px);
+     row-gap: 20px;
+     column-gap: 20px;
+ }
+  .grid-more figure{
+       border: 5px solid red;
+  }
+ .grid-more figure img{
+     border: 5px solid blue;
+     width: 300px;
+     height: 200px;
+
+ }
+ .more{
+     display: flex;
+ }
+ .right-more{
+     display: flex;
+     flex-direction:column;
+     border: 1px solid #000;
+ }
