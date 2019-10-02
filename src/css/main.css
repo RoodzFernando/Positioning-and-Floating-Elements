@@ -63,7 +63,13 @@
      margin: auto;
      max-width: 1200px;
  }
-
+ 
+ figure img {
+     display: block;
+     margin: auto;
+     max-width: 1200px;
+ }
+ 
  figcaption {
      font-size: 15px;
  }
@@ -101,7 +107,6 @@
      padding-left: 35%;
  }
  
- 
  .publication-info :nth-child(2) {
      margin-top: 15px;
  }
@@ -132,7 +137,6 @@
  }
  
  .signup {
-    
      padding: 0 25px;
      font-size: 12px;
  }
@@ -215,16 +219,16 @@
      height: 100px;
      font-size: 14px;
  }
-
-.second-content h5{
-    display: block;
-    margin-left: 215px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
- .second-content p{
+ 
+ .second-content h5 {
+     display: block;
+     margin-left: 215px;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .second-content p {
      width: 60%;
      margin: auto;
  }
@@ -240,39 +244,51 @@
      width: 300px;
      height: 200px;
  }
- .second-container{
+ 
+ .second-container {
      width: 80%;
      margin: auto;
  }
- .second-container iframe{
+ 
+ .second-container iframe {
      text-align: center;
  }
- .video{
+ 
+ .video {
      display: flex;
      align-items: center;
      flex-direction: column;
      margin: 20px 0;
  }
- .video span{
-     font-size: 12px;
-     color:grey;
+ 
+ .video iframe {
+     width: 600;
+     height: 358;
  }
- .telescope{
+ 
+ .video span {
+     font-size: 12px;
+     color: grey;
+ }
+ 
+ .telescope {
      display: flex;
      flex-direction: column;
      align-items: center;
      margin: 30px 0;
  }
- .telescope img{
+ 
+ .telescope img {
      border: 1px solid #000;
      width: 650px;
      height: 400px;
  }
- .telescope span{
+ 
+ .telescope span {
      font-size: 10px;
-     color:grey;
+     color: grey;
  }
-
+ 
  .more {
      display: flex;
      width: 80%;
@@ -285,28 +301,32 @@
      flex-direction: column;
      margin-left: 30px;
  }
- .agreement{
-     color:grey;
+ 
+ .agreement {
+     color: grey;
      font-size: 12px;
  }
- .agreement a{
-     color:grey;
+ 
+ .agreement a {
+     color: grey;
  }
- .bottom-social{
+ 
+ .bottom-social {
      margin: auto;
      width: 70%;
      margin-top: 20px;
      display: flex;
      justify-content: space-between;
  }
- .bottom-social input{
+ 
+ .bottom-social input {
      background: #326891;
      border-color: #326891;
      border-style: solid;
      height: 40px;
      width: 350px;
      border-radius: 6px;
-     color:#fff;
+     color: #fff;
      text-transform: uppercase;
  }
  
