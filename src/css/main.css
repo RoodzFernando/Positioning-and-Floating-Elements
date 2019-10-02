@@ -297,12 +297,12 @@
  .footer-navigation {
      margin-top: 70px;
  }
- 
+/*  
  .footer-header img {
      height: 50px;
      width: 250px;
      margin: auto;
- }
+ } */
  
  .footer-highlights {
      display: grid;
@@ -328,3 +328,14 @@
      text-decoration: none;
      font-size: 12px;
  }
+ .footer-logo{
+     display: flex;
+ }
+ .footer-logo svg{
+     width:15px;
+     height: 15px;
+     margin-right: 5px;
+ }
+ 
+ 
+ 
