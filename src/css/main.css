@@ -71,6 +71,10 @@ a {
     color: lightblue;
 }
 
+.editor-links a {
+    display: flex;
+}
+
 .right-more li a {
     color: #000;
     text-decoration: none;
@@ -139,8 +143,9 @@ figcaption {
     width: 70px;
 }
 
-.editor-pick {
-    margin-left: 10%;
+.author-article-share {
+    display: flex;
+    justify-content: space-between;
 }
 
 .editor-pick span {
@@ -151,6 +156,15 @@ figcaption {
 
 .editor-pick img {
     margin-right: 10px;
+}
+
+.editor-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-links h3 {
+    font-size: 15px;
 }
 
 .content-center p,
