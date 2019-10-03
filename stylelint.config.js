@@ -22,7 +22,7 @@ module.exports = {
         "block-opening-brace-space-before": "always",
         "color-hex-case": "lower",
         "color-hex-length": "short",
-        "comment-empty-line-before": ["always", {
+        "comment-empty-line-before": ["never", {
             except: ["first-nested"],
             ignore: ["stylelint-commands"],
         }],
