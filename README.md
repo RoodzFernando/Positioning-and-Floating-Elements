@@ -35,4 +35,4 @@ You can find the original project specification [here](https://www.theodinprojec
 - open command prompt in `Positioning-and-Floating-Elements` folder
 - run the application using open live server functionality.
 
-LInk to live demo [here](https://christianotieno.github.io/Positioning-and-Floating-Elements/.)
+LInk to live demo [here](https://roodzfernando.github.io/Positioning-and-Floating-Elements/)
