@@ -1,14 +1,14 @@
 # Positioning-and-Floating-Elements - (New York Times Article Clone)
 
-This project consisted of building an HTML document that would match the appearance of [this article from the New York Times](https://mint.intuit.com/login.event?task=S)
+This project consisted of building an HTML document that would match the appearance of [this article from the New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
 ## Authors
 
--[Roodz Fernando](https://github.com/RoodzFernando)
+[Roodz Fernando](https://github.com/RoodzFernando)
 
--[Christian Otieno](https://github.com/ChristianOtieno)
+[Christian Otieno](https://github.com/ChristianOtieno)
 
 ## Tools Used
 
