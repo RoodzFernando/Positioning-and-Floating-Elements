@@ -4,14 +4,13 @@ This project consisted of building an HTML document that would match the appeara
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
-## Authors
-
-[Roodz Fernando](https://github.com/RoodzFernando)
-
-[Christian Otieno](https://github.com/ChristianOtieno)
+|Source Page|The cloned page screenshot|
+|:---:|:---:|
+|![Screeenshot](./src/img/screenshot-2.png " NYT page screenshot")|![Screeenshot](./src/img/screenshot.png "NYT Youtube page screenshot")|
 
 ## Tools Used
 
+- auto prefixer
 - HTML
 - CSS
 - Flex & Grids
@@ -31,8 +30,22 @@ You can find the original project specification [here](https://www.theodinprojec
 
 ## How to Install and use
 
-- clone the repository `git clone https://github.com/ChristianOtieno/Positioning-and-Floating-Elements.git`
+- clone the repository `git clone https://github.com/christianotieno/Positioning-and-Floating-Elements.git`
 - open command prompt in `Positioning-and-Floating-Elements` folder
 - run the application using open live server functionality.
 
 LInk to live demo [here](https://christianotieno.github.io/Positioning-and-Floating-Elements/.)
+
+## Authors social links
+
+### 1. Roodz Fernando
+
+- Github: [@RoodzFernando](https://github.com/RoodzFernando)
+- Twitter: [@RoodzFernando](https://twitter.com/RoodzFernando)
+- Linkedin: [Roodz Fernando](https://www.linkedin.com/in/roodz-fernando-fleurant/)
+
+### 2. Christian Otieno
+
+- Github: [@christianotieno](https://github.com/christianotieno)
+- Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
+- Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
