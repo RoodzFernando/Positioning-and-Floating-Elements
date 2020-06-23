@@ -49,5 +49,3 @@ LInk to live demo [here](https://christianotieno.github.io/Positioning-and-Float
 - Github: [@christianotieno](https://github.com/christianotieno)
 - Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
 - Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
-=======
-LInk to live demo [here](https://roodzfernando.github.io/Positioning-and-Floating-Elements/)
